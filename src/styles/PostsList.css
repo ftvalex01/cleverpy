@@ -1,0 +1,81 @@
+h2 {
+  color: white;
+}
+
+.posts-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.post {
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.post-title {
+  color: #333;
+}
+.post-id{
+  font-weight: bold;
+  font-size: 14px;
+}
+.post-body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-full {
+  display: flex;
+  flex-direction: column;
+  max-height: none;
+  text-overflow: initial;
+}
+.post:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.02);
+}
+.post-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.read-more-button {
+  background-color: #e72b6f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.read-more-button:hover {
+  background-color: #82133c;
+}
+.delete-button,
+.edit-button {
+  font-size: 1.6rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+  transform: scale(2);
+}
+
+.delete-button {
+  color: red;
+}
