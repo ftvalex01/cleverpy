@@ -1,4 +1,4 @@
-Proyecto realizado por Alejandro Suarez Sarabia para puesto junior react en cleverpy
+Proyecto realizado por Alejandro Suarez Sarabia
 
 Instrucciones
 
